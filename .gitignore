@@ -1,0 +1,57 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables
+*.env
+
+# Flask-related
+instance/
+*.db
+*.sqlite3
+
+# Logs and debug output
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.so
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+~$*
+
+# Uploaded files
+uploads/
+media/
+
+# Test coverage and reports
+coverage/
+.coverage
+.cache/
+nosetests.xml
+pytest_cache/
+junit.xml
+
+# Dependency directories
+pip-wheel-metadata/
+__pypackages__/
+
+# IDE settings
+.idea/
+.vscode/
+*.code-workspace
+
